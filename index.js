@@ -81,7 +81,6 @@ function getLocalTodos() {
 
 }
 function removeLocalTodos(todo) {
-    // console.log(todo.children[0].innerText);
     let savedTodos = localStorage.getItem("todos")
         ? JSON.parse(localStorage.getItem("todos"))
         : [];
